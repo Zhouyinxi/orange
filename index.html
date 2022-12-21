@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>橙灵工作室</title>
+    <link href="./index.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="./swiper-3.4.2.min.css">
+</head>
+<body>
+<div onclick="window.location.href='./index.html';" class="logo-father"><img  src="./picture/logo.svg" class="logo" alt="none"></div>
+<div class="language-father"><a class="language" href="index.html">ZH</a><a class="language-type">/</a><a class="language-1">EN</a></div>
+<!--<div class="language1"><img src="./picture/多语言.png" class="language" alt="none"><img src="./picture/多语言1.png" class="language2" alt="none"></div>-->
+<div class="top">
+    <ul>
+        <li><a href="" class="type">works</a></li>
+        <li><a href="" class="type">social responsibility</a></li>
+        <li><a href="./about.html" class="type">about</a></li>
+    </ul>
+    <div class="contact">
+        <p>Contact Us</p>
+        <a href="mailto:email@orangeintelligent.cn" class="email">email@orangeintelligent.cn</a>
+        <br>
+        <a class="bilibili">bilibili</a>
+        <a class="tiktok">tiktok</a>
+        <a class="weibo">weibo</a>
+    </div>
+</div>
+<div class="show">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./picture/shudong.png" alt="none" class="show-picture"></div>
+<!--        <div class="swiper-slide">2</div>-->
+<!--        <div class="swiper-slide">3</div>-->
+    </div>
+    <!-- 如果需要导航按钮 -->
+<!--    <div class="swiper-button-prev"></div>-->
+<!--    <div class="swiper-button-next"></div>-->
+</div>
+</div>
+<!--<div class="end">-->
+<!--    <a >-->
+<!--        ©Copyright 2022 橙灵工作室 All rights reserved.-->
+<!--    </a>-->
+<!--</div>-->
+<script src="./swiper-3.4.2.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+</body>
+</html>
